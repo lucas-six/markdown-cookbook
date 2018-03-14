@@ -1,30 +1,21 @@
 # Markdown Cookbook
 
-简单、高效的文档标记语言
+`Markdown` - **简洁的文档语言**
+
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
 
 ## 标题
 
 ```markdown
 # 一级标题
-```
-
-```html
-<h1>一级标题</h1>
-```
-
-```markdown
 ## 二级标题
-```
-
-```html
-<h2>二级标题</h2>
-```
-
-```markdown
 ### 三级标题
 ```
 
 ```html
+<h1>一级标题</h1>
+<h2>二级标题</h2>
 <h3>三级标题</h3>
 ```
 
@@ -59,20 +50,6 @@
   </ul>
   <li>列表项目2</li>
 </ul>
-```
-
-## 代码段
-
-```markdown
-```python
-print 'Hello world'
-```//end
-```
-
-```html
-<code>
-print 'Hello world'
-</code>
 ```
 
 ## 嵌入代码
@@ -110,18 +87,6 @@ print 'Hello world'
 <em>次强调文字</em>
 ```
 
-## 用户
-
-```markdown
-@user
-```
-
-## Issue
-
-```markdown
-#issue
-```
-
 ## 表格
 
 ```markdown
@@ -136,7 +101,42 @@ print 'Hello world'
 </table>
 ```
 
-## 任务清单
+## 分割线
+```markdown
+***
+```
+
+```html
+<hr/>
+```
+
+## Markdown拓展
+
+### 代码段
+
+```markdown
+```python
+print ('Hello world')
+```//end
+```
+
+```html
+<code>
+print ('Hello world')
+</code>
+```
+
+### 用户
+
+```markdown
+用户
+@user
+
+任务
+#issue
+```
+
+### 任务清单
 
 ```markdown
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
@@ -144,8 +144,3 @@ print 'Hello world'
 - [x] this is a complete item
 - [ ] this is an incomplete item
 ```
-
-## 参考资料
-
-- [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
-- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
