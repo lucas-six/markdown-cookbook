@@ -63,6 +63,16 @@
 <value>code here</value>
 ```
 
+## 图片
+
+```markdown
+![替换文本](URL)
+```
+
+```html
+<img src="URL" alt="替换文本">
+```
+
 ## 链接
 
 ```markdown
