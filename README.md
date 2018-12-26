@@ -20,6 +20,7 @@
   - [Italic Text 斜体文本](#italic-text-斜体文本)
   - [Deleted Text 删除文本](#deleted-text-删除文本)
 - [Table 表格](#table-表格)
+- [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
 
 ***
 
@@ -225,7 +226,7 @@ _这也是次强调文字，斜体_
 </table>
 ```
 
-## 分割线
+## Horizontal Rule 水平分割线
 ```markdown
 ***
 ```
