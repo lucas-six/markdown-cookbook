@@ -24,6 +24,8 @@
 - [Blockquote 引用块](#blockquote-引用块)
 - [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的Markdown拓展)
   - [Code Block 代码段](#code-block-代码段)
+  - [User Mention 用户提醒](#user-mention-用户提醒)
+  - [Issue Reference Issue引用)(#issue-reference-issue引用)
 
 ***
 
@@ -273,13 +275,15 @@ print ('Hello world')
 </code>
 ```
 
-### 用户
+### User Mention 用户提醒
 
 ```markdown
-用户
 @user
+```
 
-任务
+### Issue Reference Issue引用
+
+```markdown
 #issue
 ```
 
