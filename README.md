@@ -22,6 +22,7 @@
 - [Table 表格](#table-表格)
 - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
 - [Blockquote 引用块](#blockquote-引用块)
+- [GitHub Flavored Markdown, GFM GitHub的Markdown拓展](#github-flavored-markdown,-gfm-gitub的Markdown拓展)
 
 ***
 
@@ -253,7 +254,7 @@ As Kanye West said:
   the present is our past.</blockquote>
 ```
 
-## Markdown拓展
+## GitHub Flavored Markdown, GFM GitHub的Markdown拓展
 
 ### 代码段
 
