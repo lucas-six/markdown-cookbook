@@ -5,15 +5,23 @@
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
 
-## 标题
+## Heading 标题
 
 ```markdown
+# Level-1 Heading
+## Level-2 Heading
+### Level-3 Heading
+
 # 一级标题
 ## 二级标题
 ### 三级标题
 ```
 
 ```html
+<h1>Level-1 Heading</h1>
+<h2>Level-2 Heading</h2>
+<h3>Level-3 Heading</h3>
+
 <h1>一级标题</h1>
 <h2>二级标题</h2>
 <h3>三级标题</h3>
