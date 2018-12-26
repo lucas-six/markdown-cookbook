@@ -109,14 +109,18 @@ Paragraph2
 <value>code here</value>
 ```
 
-## 图片
+## Image 图片
 
 ```markdown
+![Alt Text](URL)
+
 ![替换文本](URL)
 ```
 
 ```html
-<img src="URL" alt="替换文本">
+<img src="URL" alt="Alt Text"/>
+
+<img src="URL" alt="替换文本"/>
 ```
 
 ## 链接
