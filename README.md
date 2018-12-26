@@ -26,6 +26,7 @@
   - [Code Block 代码段](#code-block-代码段)
   - [User Mention 用户提醒](#user-mention-用户提醒)
   - [Issue Reference Issue引用](#issue-reference-issue引用)
+  - [Task List 任务清单](#task-list-任务清单)
 
 ***
 
@@ -287,11 +288,16 @@ print ('Hello world')
 #issue
 ```
 
-### 任务清单
+### Task List 任务清单
 
 ```markdown
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> are supported
 - [x] list syntax is required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
+
+- [x] 已完成
+- [x] 已完成
+- [x] 已完成
+- [ ] 未完成
 ```
