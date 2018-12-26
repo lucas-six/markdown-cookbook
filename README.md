@@ -123,14 +123,20 @@ Paragraph2
 <img src="URL" alt="替换文本"/>
 ```
 
-## 链接
+## Link 链接
 
 ```markdown
+[Link Text](URL)
+[Link Text](URL "Tip Text")
+
 [链接文字](URL)
 [链接文字](URL "提示文字")
 ```
 
 ```html
+<a href="URL">Link Text</a>
+<a href="URL" title="Tip Text">Link Text</a>
+
 <a href="URL">链接文字</a>
 <a href="URL" title="提示文字">链接文字</a>
 ```
