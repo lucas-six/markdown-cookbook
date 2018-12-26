@@ -16,6 +16,9 @@
 - [Image 图片](#image-图片)
 - [Link 链接](#link-链接)
 - [Text 文本](#text-文本)
+  - [Bold Text 强调文本](#bold-text-强调文本)
+  - [Italic Text 斜体文本](#italic-text-斜体文本)
+  - [Deleted Text 删除文本](#deleted-text-删除文本)
 
 ***
 
@@ -157,24 +160,14 @@ Paragraph2
 
 ## Text 文本
 
+### Bold Text 强调文本
+
 ```markdown
 **This text will be bold**
 __This will also be bold__
 
 **强调文字**
 __这也是强调文字__
-
-
-*This text will be italic*
-_This will also be italic_
-
-*次强调文字， 斜体*
-_这也是次强调文字，斜体_
-
-
-~~删除的文字~~
-
-~~Deleted Text~~
 ```
 
 ```html
@@ -183,14 +176,35 @@ _这也是次强调文字，斜体_
 
 <strong>强调文字</strong>
 <strong>这也是强调文字</strong>
+```
 
+### Italic Text 斜体文本
 
+```markdown
+*This text will be italic*
+_This will also be italic_
+
+*次强调文字， 斜体*
+_这也是次强调文字，斜体_
+```
+
+```html
 <em>This text will be italic</em>
 <em>This will also be italic</em>
 
 <em>次强调文字， 斜体</em>
 <em>这也是次强调文字，斜体</em>
+```
 
+### Deleted Text 删除文本
+
+```markdown
+~~删除的文字~~
+
+~~Deleted Text~~
+```
+
+```html
 <del>删除的文字</del>
 
 <del>Deleted Text</del>
