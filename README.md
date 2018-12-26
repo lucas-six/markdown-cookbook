@@ -254,7 +254,7 @@ As Kanye West said:
   the present is our past.</blockquote>
 ```
 
-## GitHub Flavored Markdown, GFM GitHub的Markdown拓展
+## GitHub Flavored Markdown GitHub的Markdown拓展
 
 **G**ithub **F**lavored **M**arkdown = **GFM**
 
