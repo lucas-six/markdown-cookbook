@@ -15,6 +15,7 @@
 - [Inline Code 内嵌代码](#inline-code-内嵌代码)
 - [Image 图片](#image-图片)
 - [Link 链接](#link-链接)
+- [Text 文本](#text-文本)
 
 ***
 
@@ -154,18 +155,45 @@ Paragraph2
 <a href="URL" title="提示文字">链接文字</a>
 ```
 
-## 文本
+## Text 文本
 
 ```markdown
+**This text will be bold**
+__This will also be bold__
+
 **强调文字**
-*次强调文字*
+__这也是强调文字__
+
+
+*This text will be italic*
+_This will also be italic_
+
+*次强调文字， 斜体*
+_这也是次强调文字，斜体_
+
+
 ~~删除的文字~~
+
+~~Deleted Text~~
 ```
 
 ```html
+<strong>This text will be bold</strong>
+<strong>This will also be bold</strong>
+
 <strong>强调文字</strong>
-<em>次强调文字</em>
+<strong>这也是强调文字</strong>
+
+
+<em>This text will be italic</em>
+<em>This will also be italic</em>
+
+<em>次强调文字， 斜体</em>
+<em>这也是次强调文字，斜体</em>
+
 <del>删除的文字</del>
+
+<del>Deleted Text</del>
 ```
 
 ## 表格
