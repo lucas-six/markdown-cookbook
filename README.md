@@ -21,7 +21,7 @@
   - [Deleted Text 删除文本](#deleted-text-删除文本)
 - [Table 表格](#table-表格)
 - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
-- [blockquote 引用块](#blockquote-引用块)
+- [Blockquote 引用块](#blockquote-引用块)
 
 ***
 
