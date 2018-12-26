@@ -98,7 +98,7 @@ Paragraph2
 </ol>
 ```
 
-## 嵌入代码
+## Inline Code 内嵌代码
 
 ```markdown
 `code here`
