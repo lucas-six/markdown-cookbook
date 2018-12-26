@@ -25,7 +25,7 @@
 - [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的Markdown拓展)
   - [Code Block 代码段](#code-block-代码段)
   - [User Mention 用户提醒](#user-mention-用户提醒)
-  - [Issue Reference Issue引用)(#issue-reference-issue引用)
+  - [Issue Reference Issue引用](#issue-reference-issue引用)
 
 ***
 
