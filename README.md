@@ -76,6 +76,28 @@ Paragraph2
 </ul>
 ```
 
+### Ordered List 有序列表
+
+```markdown
+1. Item 1
+1. Item 2
+
+1. 列表项目1
+1. 列表项目2
+```
+
+```html
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ol>
+
+<ol>
+  <li>列表项目1</li>
+  <li>列表项目2</li>
+</ol>
+```
+
 ## 嵌入代码
 
 ```markdown
