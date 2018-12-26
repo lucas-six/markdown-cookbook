@@ -19,6 +19,7 @@
   - [Bold Text 强调文本](#bold-text-强调文本)
   - [Italic Text 斜体文本](#italic-text-斜体文本)
   - [Deleted Text 删除文本](#deleted-text-删除文本)
+- [Table 表格](#table-表格)
 
 ***
 
@@ -210,7 +211,7 @@ _这也是次强调文字，斜体_
 <del>Deleted Text</del>
 ```
 
-## 表格
+## Table 表格
 
 ```markdown
 | Name | Description          |
