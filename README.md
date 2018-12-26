@@ -27,17 +27,17 @@
 <h3>三级标题</h3>
 ```
 
-## 段落
+## Paragraph 段落
 
 ```markdown
 段落1
 
-段落2
+Paragraph2
 ```
 
 ```html
 <p>段落1</p>
-<p>段落2</p>
+<p>Paragraph2</p>
 ```
 
 ## 列表
