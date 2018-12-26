@@ -286,6 +286,10 @@ print ('Hello world')
 
 ```markdown
 #issue
+
+#1
+<repo>#1
+<user>/<repo>#1
 ```
 
 ### Task List 任务清单
