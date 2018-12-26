@@ -40,9 +40,16 @@ Paragraph2
 <p>Paragraph2</p>
 ```
 
-## 列表
+## List 列表
+
+### Unordered List 无序列表
 
 ```markdown
+- Item 1
+  - Item 1.1
+  - Item 1.2
+- Item 2
+
 - 列表项目1
   - 列表项目1.1
   - 列表项目1.2
@@ -50,6 +57,15 @@ Paragraph2
 ```
 
 ```html
+<ul>
+  <li>Item 1</li>
+  <ul>
+    <li>Item 1.1</li>
+    <li>Item 1.2</li>
+  </ul>
+  <li>Item 2</li>
+</ul>
+
 <ul>
   <li>列表项目1</li>
   <ul>
