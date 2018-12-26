@@ -23,6 +23,7 @@
 - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
 - [Blockquote 引用块](#blockquote-引用块)
 - [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的Markdown拓展)
+- [Code Block 代码段](#code-block-代码段)
 
 ***
 
@@ -258,7 +259,7 @@ As Kanye West said:
 
 **G**ithub **F**lavored **M**arkdown = **GFM**
 
-### 代码段
+### Code Block 代码段
 
 ```markdown
 ```python
