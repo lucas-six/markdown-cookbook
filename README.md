@@ -28,6 +28,7 @@
   - [Issue Reference Issue引用](#issue-reference-issue引用)
   - [Task List 任务清单](#task-list-任务清单)
   - [SHA-1 References 提交Hash引用](#sha-1-references-提交hash引用)
+  - [Emoji 表情](#emoji-表情)
 
 ***
 
@@ -316,3 +317,13 @@ Any reference to a commit’s `SHA-1 hash` will be *automatically* converted int
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ```
+
+### Emoji 表情
+
+Refer to [GitHub Emoji](https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji).
+
+```markdown
+:+1: :shipit:
+```
+
+:+1: :shipit:
