@@ -266,11 +266,13 @@ As Kanye West said:
 
 ### Code Block 代码段
 
+<!-- markdownlint-disable MD031 -->
 ```markdown
 ```python
 print ('Hello world')
-```//end
+``` // end
 ```
+<!-- markdownlint-enable MD031 -->
 
 ```html
 <code>
