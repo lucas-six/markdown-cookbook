@@ -222,6 +222,11 @@ _这也是次强调文字，斜体_
 
 ## Table 表格
 
+| Name | Description          |
+| ------------- | ----------- |
+| Help      | Display the help window.|
+| Close     | Closes a window     |
+
 ```markdown
 | Name | Description          |
 | ------------- | ----------- |
@@ -231,6 +236,22 @@ _这也是次强调文字，斜体_
 
 ```html
 <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Help</td>
+      <td>Display the help window.</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>Closes a window</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
