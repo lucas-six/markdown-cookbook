@@ -297,3 +297,7 @@ will render:
 - `pygments_style`: `default`
 - `noclasses`: `False`/`True`
 - `use_pygments`: `True`/`False` (Pygments required)
+
+### Third Party Extensions
+
+Refer to https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions
