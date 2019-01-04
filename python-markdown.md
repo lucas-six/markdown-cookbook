@@ -101,8 +101,8 @@ md.reset().convertFile(input_file1, output_file1)
 | &nbsp;&nbsp;&nbsp; Tables | tables |
 | **Admonition** | admonition |
 | **CodeHilite** | codehilite |
-| Legacy Attributes | legacy_attr |
-| Legacy Emphasis | legacy_em |
+| ~~Legacy Attributes~~ | legacy_attr |
+| ~~Legacy Emphasis~~ | legacy_em |
 | Meta-Data | meta |
 | New Line to Break | nl2br |
 | Sane Lists | sane_lists |
