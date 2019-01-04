@@ -300,4 +300,7 @@ will render:
 
 ### Third Party Extensions
 
+<!-- markdownlint-disable MD034 -->
 Refer to https://github.com/Python-Markdown/markdown/wiki/Third-Party-Extensions
+
+<!-- markdownlint-enable MD034 -->
