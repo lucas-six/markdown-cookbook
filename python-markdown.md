@@ -92,15 +92,15 @@ md.reset().convertFile(input_file1, output_file1)
 
 | Extension 扩展 | Entry Point 参数调用名 |
 | ------------- | ----------- |
-| Extra | extra|
-| &nbsp;&nbsp;&nbsp; Abbreviations | abbr |
-| &nbsp;&nbsp;&nbsp; Attribute Lists | attr_list |
-| &nbsp;&nbsp;&nbsp; Definition Lists | def_list |
-| &nbsp;&nbsp;&nbsp; Fenced Code Blocks | fenced_code |
+| **Extra** | extra|
+| &nbsp;&nbsp;&nbsp; **Abbreviations** | abbr |
+| &nbsp;&nbsp;&nbsp; **Attribute Lists** | attr_list |
+| &nbsp;&nbsp;&nbsp; **Definition Lists** | def_list |
+| &nbsp;&nbsp;&nbsp; **Fenced Code Blocks** | fenced_code |
 | &nbsp;&nbsp;&nbsp; Footnotes | footnotes |
 | &nbsp;&nbsp;&nbsp; Tables | tables |
-| Admonition | admonition |
-| CodeHilite | codehilite |
+| **Admonition** | admonition |
+| **CodeHilite** | codehilite |
 | Legacy Attributes | legacy_attr |
 | Legacy Emphasis | legacy_em |
 | Meta-Data | meta |
@@ -109,6 +109,25 @@ md.reset().convertFile(input_file1, output_file1)
 | SmartyPants | smarty |
 | Table of Contents | toc |
 | WikiLinks | wikilinks |
+
+### Extra
+
+```markdown
+This is *true* markdown text.
+
+<div markdown="1">
+This is *true* markdown text.
+</div>
+```
+
+Result:
+
+```html
+<p>This is <em>true</em> markdown text.</p>
+<div>
+<p>This is <em>true</em> markdown text.</p>
+</div>
+```
 
 ### Abbreviations 缩写
 
@@ -180,6 +199,49 @@ The above results in the following output:
 ```html
 <p><a href="http://example.com" class="foo bar" title="Some title!">link</a></p>
 ```
+
+### Definition Lists 定义列表
+
+```markdown
+Apple
+:   Pomaceous fruit of plants of the genus Malus in
+    the family Rosaceae.
+
+Orange
+:   The fruit of an evergreen tree of the genus Citrus.
+```
+
+will be rendered as:
+
+```html
+<dl>
+  <dt>Apple</dt>
+  <dd>Pomaceous fruit of plants of the genus Malus in
+the family Rosaceae.</dd>
+
+  <dt>Orange</dt>
+  <dd>The fruit of an evergreen tree of the genus Citrus.</dd>
+</dl>
+```
+
+### Fenced Code Blocks 代码块
+
+```markdown
+~~~~{.python}
+# python code
+~~~~
+```
+
+Results:
+
+```html
+<pre><code class="python"># python code
+</code></pre>
+```
+
+GitHub's backtick (```) syntax is also supported.
+
+**Warning**: *Fenced Code Blocks* are **only** supported at the document **root** level. Therefore, they cannot be nested inside lists or blockquotes.
 
 ### Admonition 提示
 
