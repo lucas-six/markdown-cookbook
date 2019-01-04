@@ -110,7 +110,7 @@ md.reset().convertFile(input_file1, output_file1)
 | Table of Contents | toc |
 | WikiLinks | wikilinks |
 
-### Abbreviations
+### Abbreviations 缩写
 
 ```markdown
 The HTML specification
@@ -126,7 +126,7 @@ will be rendered as:
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
 
-### Attribute Lists
+### Attribute Lists 属性列表
 
 ```markdown
 {: #id1 .class1 .class2 key='value' }
@@ -181,7 +181,7 @@ The above results in the following output:
 <p><a href="http://example.com" class="foo bar" title="Some title!">link</a></p>
 ```
 
-### Admonition
+### Admonition 提示
 
 ```markdown
 !!! type "title text"
@@ -215,3 +215,23 @@ will render:
 </div>
 ```
 
+### CodeHilite 代码高亮
+
+```markdown
+:::python
+# Code goes here ...
+```
+
+```html
+<div class="codehilite"><pre><code># Code goes here ...
+</code></pre></div>
+```
+
+#### Option 选项
+
+- `linenums`: `None`/`True`/`False`
+- `guess_lang`: `True`/`False`
+- `css_class`: `codehilite`
+- `pygments_style`: `default`
+- `noclasses`: `False`/`True`
+- `use_pygments`: `True`/`False` (Pygments required)
