@@ -125,3 +125,37 @@ will be rendered as:
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
+
+### Admonition
+
+```markdown
+!!! type "title text"
+    Any number of other indented markdown elements.
+
+    This is the second paragraph.
+```
+
+rST suggests the following **"types"**: `attention`, `caution`, `danger`, `error`, `hint`, `important`, `note`, `tip`, and `warning`; however, you’re free to use whatever you want.
+
+```html
+<div class="admonition type">
+<p class="admonition-title">Title text</p>
+<p>Any number of other indented markdown elements.</p>
+</div>
+```
+
+You can also provide additional CSS class names separated by spaces. The first class should be the “type.” For example:
+
+```markdown
+!!! danger highlight blink "Don't try this at home"
+    ...
+```
+
+will render:
+
+```html
+<div class="admonition danger highlight blink">
+<p class="admonition-title">Don't try this at home</p>
+<p>...</p>
+</div>
+```
