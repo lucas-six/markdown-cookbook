@@ -93,8 +93,8 @@ md.reset().convertFile(input_file1, output_file1)
 | Extension 扩展 | Entry Point 参数调用名 |
 | ------------- | ----------- |
 | Extra | extra|
-| &nbsp;&nbsp;&nbsp; Abbreviations | attr_list |
-| &nbsp;&nbsp;&nbsp; Attribute Lists | abbr |
+| &nbsp;&nbsp;&nbsp; Abbreviations | abbr |
+| &nbsp;&nbsp;&nbsp; Attribute Lists | attr_list |
 | &nbsp;&nbsp;&nbsp; Definition Lists | def_list |
 | &nbsp;&nbsp;&nbsp; Fenced Code Blocks | fenced_code |
 | &nbsp;&nbsp;&nbsp; Footnotes | footnotes |
@@ -124,6 +124,61 @@ will be rendered as:
 ```html
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+```
+
+### Attribute Lists
+
+```markdown
+{: #id1 .class1 .class2 key='value' }
+```
+
+A word which starts with a hash (`#`) will set the id of an element.
+
+A word which starts with a dot (`.`) will be added to the list of classes assigned to an element.
+
+A key/value pair (`somekey='some value'`) will assign that pair to the element.
+
+```html
+id="id1" class="class1 class2" key="value"
+```
+
+#### Block Level
+
+```makrdown
+This is a paragraph.
+{: #an_id .a_class }
+```
+
+```html
+<p id="an_id" class="a_class">This is a paragraph.</p>
+```
+
+The one exception is **headers**, as they are only ever allowed on one line.
+
+```markdown
+A setext style header {: #setext}
+=================================
+
+### A hash style header ### {: #hash }
+```
+
+The above results in the following output:
+
+```html
+<h1 id="setext">A setext style header</h1>
+<h3 id="hash">A hash style header</h3>
+```
+
+#### Inline Level
+
+```markdown
+[link](http://example.com){: class="foo bar" title="Some title!" }
+```
+
+The above results in the following output:
+
+```html
+<p><a href="http://example.com" class="foo bar" title="Some title!">link</a></p>
 ```
 
 ### Admonition
@@ -159,3 +214,4 @@ will render:
 <p>...</p>
 </div>
 ```
+
