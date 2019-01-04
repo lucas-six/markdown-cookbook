@@ -4,9 +4,9 @@ Refer to [Python-Markdown Documentation](https://python-markdown.github.io/)
 
 ## Features 特性
 
-- International (**Unicode**) Support 国际化支持
-- Output Format: `HTML5` and `XHTML` support
-- Extentions Support 扩展插件
+- International (**Unicode**) Support 支持国际化
+- Output Format: `HTML5` and `XHTML` support 支持`HTML5`, `XHTML`输出格式
+- Extentions Support 支持扩展
 - Command Line Interface 命令行
 
 ## Installation 安装
@@ -86,11 +86,11 @@ md.convertFile(input_file1, output_file1)
 md.reset().convertFile(input_file1, output_file1)
 ```
 
-## Extensions 拓展插件
+## Extensions 扩展
 
-### Official Extensions 官方拓展插件
+### Official Extensions 官方扩展
 
-| Extension 拓展插件 | Entry Point 参数调用名 |
+| Extension 扩展 | Entry Point 参数调用名 |
 | ------------- | ----------- |
 | Extra | extra|
 | &nbsp;&nbsp;&nbsp; Abbreviations | attr_list |
@@ -109,3 +109,19 @@ md.reset().convertFile(input_file1, output_file1)
 | SmartyPants | smarty |
 | Table of Contents | toc |
 | WikiLinks | wikilinks |
+
+### Abbreviations
+
+```markdown
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium
+will be rendered as:
+```
+
+```html
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+```
