@@ -2,6 +2,8 @@
 
 `Markdown` - **简洁的文档语言**
 
+`Markdown` is a simple markup language that allows one to write documents using a text editor and transform those documents into many different formats.  Among other things, it works beautifully for documenting source code since the Markdown documents can be checked in and versioned with Git or your source control system of choice.
+
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
 
@@ -172,20 +174,32 @@ Paragraph2
 
 ### Bold Text 强调文本
 
-```markdown
-**This text will be bold**
-__This will also be bold__
+This text will be **bold**
 
-**强调文字**
-__这也是强调文字__
+This will also be __bold__
+
+这是**强调文字**
+
+这不支持中文__强调文字__
+
+```markdown
+This text will be **bold**
+
+This will also be __bold__
+
+这是**强调文字**
+
+这不支持中文__强调文字__
 ```
 
 ```html
-<strong>This text will be bold</strong>
-<strong>This will also be bold</strong>
+This text will be <strong>bold</strong>
 
-<strong>强调文字</strong>
-<strong>这也是强调文字</strong>
+This will also be <strong>bold</strong>
+
+这是<strong>强调文字</strong>
+
+这不支持中文<strong>强调文字</strong>
 ```
 
 ### Italic Text 斜体文本
@@ -208,16 +222,20 @@ _这也是次强调文字，斜体_
 
 ### Deleted Text 删除文本
 
-```markdown
+~~Deleted Text~~
+
 ~~删除的文字~~
 
+```markdown
 ~~Deleted Text~~
+
+~~删除的文字~~
 ```
 
 ```html
-<del>删除的文字</del>
-
 <del>Deleted Text</del>
+
+<del>删除的文字</del>
 ```
 
 ## Table 表格
@@ -266,6 +284,11 @@ _这也是次强调文字，斜体_
 ```
 
 ## Blockquote 引用块
+
+As Kanye West said:
+
+> We're living the future so
+> the present is our past.
 
 ```markdown
 As Kanye West said:
