@@ -259,16 +259,23 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 
 ## Table 表格
 
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | Display the help window.|
-| Close     | Closes a window     |
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
 
 ```markdown
-| Name | Description          |
-| ------------- | ----------- |
-| Help      | Display the help window.|
-| Close     | Closes a window     |
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
+
+<!-- 1. There must be at least 3 dashes separating each header cell. -->
+
+<!-- 2. The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown. -->
+
+<!-- 3. Colons can be used to align columns: right-aligned, centered, and neat -->
 ```
 
 ```html
