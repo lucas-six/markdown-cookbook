@@ -21,6 +21,7 @@
   - [Bold Text 强调文本](#bold-text-强调文本)
   - [Italic Text 斜体文本](#italic-text-斜体文本)
   - [Deleted Text 删除文本](#deleted-text-删除文本)
+  - [Combined Emphasis Text 混合文本](#combined-emphasis-text-混合文本)
 - [Table 表格](#table-表格)
 - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
 - [Blockquote 引用块](#blockquote-引用块)
@@ -236,6 +237,24 @@ _这也是次强调文字，斜体_
 <del>Deleted Text</del>
 
 <del>删除的文字</del>
+```
+
+### Combined Emphasis Text 混合文本
+
+Combined emphasis with **asterisks and _underscores_**.
+
+混合的文本**强调和 _斜体_**.
+
+```markdown
+Combined emphasis with **asterisks and _underscores_**.
+
+混合的文本**强调和 _斜体_**.
+```
+
+```html
+Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
+
+混合的文本<strong>强调和 <em>斜体</em></strong>.
 ```
 
 ## Table 表格
