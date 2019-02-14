@@ -259,14 +259,16 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 
 ## Table 表格
 
-| Name | Description (centered) | Hot (right-aligned) |
-| ------------- | :---: | ---: |
+### Raw Table 原始表格
+
+| Name | Description | Hot |
+| ------------- | --- | --- |
 | Help | Display the help window.| 5 |
 | **Close** | *Closes* a `window` | 1000 |
 
 ```markdown
-| Name | Description (centered) | Hot (right-aligned) |
-| ------------- | :---: | ---: |
+| Name | Description | Hot |
+| ------------- | --- | --- |
 | Help | Display the help window.| 5 |
 | **Close** | *Closes* a `window` | 1000 |
 
@@ -274,8 +276,43 @@ Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.
 
 <!-- 2. The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown. -->
+```
 
-<!-- 3. Colons can be used to align columns: right-aligned, centered, and neat -->
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Help</td>
+      <td>Display the help window.</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>Closes a window</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+### Column Alignment 列对齐
+
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
+
+```markdown
+<!-- Colons can be used to align columns: right-aligned, centered, and neat -->
+
+| Name | Description (centered) | Hot (right-aligned) |
+| ------------- | :---: | ---: |
+| Help | Display the help window.| 5 |
+| **Close** | *Closes* a `window` | 1000 |
 ```
 
 ```html
