@@ -9,31 +9,35 @@
 
 ## Table Of Content
 
-- [Heading 标题](#heading-标题)
-- [Paragraph 段落](#paragraph-段落)
-- [List 列表](#list-列表)
-  - [Unordered List 无序列表](#unordered-list-无序列表)
-  - [Ordered List 有序列表](#ordered-list-有序列表)
-- [Inline Code 内嵌代码](#inline-code-内嵌代码)
-- [Image 图片](#image-图片)
-- [Link 链接](#link-链接)
-- [Text 文本](#text-文本)
-  - [Bold Text 强调文本](#bold-text-强调文本)
-  - [Italic Text 斜体文本](#italic-text-斜体文本)
-  - [Deleted Text 删除文本](#deleted-text-删除文本)
-  - [Combined Emphasis Text 混合文本](#combined-emphasis-text-混合文本)
-- [Table 表格](#table-表格)
-  - [Raw Table 原始表格](#raw-table-原始表格)
-  - [Column Alignment 列对齐](#column-alignment-列对齐)
-- [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
-- [Blockquote 引用块](#blockquote-引用块)
-- [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的Markdown拓展)
-  - [Code Block 代码段](#code-block-代码段)
-  - [User Mention 用户提醒](#user-mention-用户提醒)
-  - [Issue Reference Issue引用](#issue-reference-issue引用)
-  - [Task List 任务清单](#task-list-任务清单)
-  - [SHA-1 References 提交Hash引用](#sha-1-references-提交hash引用)
-  - [Emoji 表情](#emoji-表情)
+- [Markdown Cookbook](#markdown-cookbook)
+  - [Table Of Content](#table-of-content)
+  - [Heading 标题](#heading-标题)
+  - [Paragraph 段落](#paragraph-段落)
+  - [List 列表](#list-列表)
+    - [Unordered List 无序列表](#unordered-list-无序列表)
+    - [Ordered List 有序列表](#ordered-list-有序列表)
+  - [Inline Code 内嵌代码](#inline-code-内嵌代码)
+  - [Image 图片](#image-图片)
+  - [Link 链接](#link-链接)
+  - [Text 文本](#text-文本)
+    - [Bold Text 强调文本](#bold-text-强调文本)
+    - [Italic Text 斜体文本](#italic-text-斜体文本)
+    - [Deleted Text 删除文本](#deleted-text-删除文本)
+    - [Combined Emphasis Text 混合文本](#combined-emphasis-text-混合文本)
+  - [Table 表格](#table-表格)
+    - [Raw Table 原始表格](#raw-table-原始表格)
+    - [Column Alignment 列对齐](#column-alignment-列对齐)
+  - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
+  - [Blockquote 引用块](#blockquote-引用块)
+  - [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的markdown拓展)
+    - [Code Block 代码段](#code-block-代码段)
+    - [User Mention 用户提醒](#user-mention-用户提醒)
+    - [Issue Reference Issue引用](#issue-reference-issue引用)
+    - [Task List 任务清单](#task-list-任务清单)
+    - [SHA-1 References 提交Hash引用](#sha-1-references-提交hash引用)
+    - [Emoji 表情](#emoji-表情)
+  - [Math 数学](#math-数学)
+    - [TeX Mathematical Formulae Tex数学公式](#tex-mathematical-formulae-tex数学公式)
 
 ***
 
@@ -438,3 +442,21 @@ Refer to [GitHub Emoji](https://help.github.com/articles/basic-writing-and-forma
 ```
 
 :+1: :shipit:
+
+## Math 数学
+
+### TeX Mathematical Formulae Tex数学公式
+
+$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+
+$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
+
+$\forall x \in X, \quad \exists y \leq \epsilon$
+
+```markdown
+$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+
+$x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
+
+$\forall x \in X, \quad \exists y \leq \epsilon$
+```
