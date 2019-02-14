@@ -23,6 +23,8 @@
   - [Deleted Text 删除文本](#deleted-text-删除文本)
   - [Combined Emphasis Text 混合文本](#combined-emphasis-text-混合文本)
 - [Table 表格](#table-表格)
+  - [Raw Table 原始表格](#raw-table-原始表格)
+  - [Column Alignment 列对齐](#column-alignment-列对齐)
 - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
 - [Blockquote 引用块](#blockquote-引用块)
 - [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的Markdown拓展)
