@@ -1,4 +1,4 @@
-# Markdown Cookbook
+# Markdown Cookbook  <!-- omit in toc -->
 
 `Markdown` - **简洁的文档语言**
 
@@ -7,7 +7,7 @@
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Writing on GitHub](https://help.github.com/categories/writing-on-github/)
 
-## Table Of Content
+## Table Of Content  <!-- omit in toc -->
 
 - [Heading 标题](#heading-标题)
 - [Paragraph 段落](#paragraph-段落)
