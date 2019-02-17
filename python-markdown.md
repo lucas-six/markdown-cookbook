@@ -101,8 +101,8 @@ md.reset().convertFile(input_file1, output_file1)
 | &nbsp;&nbsp;&nbsp; Tables | tables |
 | **Admonition** | admonition |
 | **CodeHilite** | codehilite |
-| ~~Legacy Attributes~~ | legacy_attr |
-| ~~Legacy Emphasis~~ | legacy_em |
+| ~~Legacy Attributes~~ | ~~legacy_attr~~ |
+| ~~Legacy Emphasis~~ | ~~legacy_em~~ |
 | Meta-Data | meta |
 | New Line to Break | nl2br |
 | Sane Lists | sane_lists |
@@ -137,8 +137,9 @@ is maintained by the W3C.
 
 *[HTML]: Hyper Text Markup Language
 *[W3C]:  World Wide Web Consortium
-will be rendered as:
 ```
+
+will be rendered as:
 
 ```html
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
