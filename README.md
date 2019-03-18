@@ -30,7 +30,6 @@
 - [Horizontal Rule 水平分割线](#horizontal-rule-水平分割线)
 - [Blockquote 引用块](#blockquote-引用块)
 - [GitHub Flavored Markdown GitHub的Markdown拓展](#github-flavored-markdown-github的markdown拓展)
-  - [Code Block 代码段](#code-block-代码段)
   - [User Mention 用户提醒](#user-mention-用户提醒)
   - [Issue Reference Issue引用](#issue-reference-issue引用)
   - [Task List 任务清单](#task-list-任务清单)
@@ -40,6 +39,7 @@
   - [TeX Mathematical Formulae Tex数学公式](#tex-mathematical-formulae-tex数学公式)
 - [Abbreviations 缩写](#abbreviations-缩写)
 - [Attribute List](#attribute-list)
+- [Code Block 代码段](#code-block-代码段)
 
 ***
 
@@ -418,22 +418,6 @@ As Kanye West said:
 
 **G**ithub **F**lavored **M**arkdown = **GFM**
 
-### Code Block 代码段
-
-<!-- markdownlint-disable MD031 -->
-```markdown
-```python
-print ('Hello world')
-``` // end
-```
-<!-- markdownlint-enable MD031 -->
-
-```html
-<code>
-print ('Hello world')
-</code>
-```
-
 ### User Mention 用户提醒
 
 ```markdown
@@ -553,4 +537,20 @@ Windows lets you perform most tasks directly from the keyboard. This page lists 
 ```html
 <h2 id="head-id">Attribute List</h2>
 <p attrname="value" class="someclass" id="someid">Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the <strong attrname="value">default</strong> bindings (keyboard shortcuts).</p>
+```
+
+## Code Block 代码段
+
+<!-- markdownlint-disable MD031 -->
+```markdown
+```python
+print ('Hello world')
+``` // end
+```
+<!-- markdownlint-enable MD031 -->
+
+```html
+<code>
+print ('Hello world')
+</code>
 ```
