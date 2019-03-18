@@ -38,6 +38,7 @@
   - [Emoji 表情](#emoji-表情)
 - [Math 数学](#math-数学)
   - [TeX Mathematical Formulae Tex数学公式](#tex-mathematical-formulae-tex数学公式)
+- [Abbreviations 缩写](#abbreviations-缩写)
 
 ***
 
@@ -116,10 +117,10 @@ Paragraph2
 
 ```markdown
 1. Item 1
-1. Item 2
+2. Item 2
 
-1. 列表项目1
-1. 列表项目2
+3. 列表项目1
+4. 列表项目2
 ```
 
 ```html
@@ -516,4 +517,25 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 $$
 -b \pm \sqrt{b^2 - 4ac} \over 2a
 $$
+```
+
+## Abbreviations 缩写
+
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+
+```markdown
+The HTML specification
+is maintained by the W3C.
+
+*[HTML]: Hyper Text Markup Language
+*[W3C]: World Wide Web Consortium
+```
+
+```html
+<p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
+is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
