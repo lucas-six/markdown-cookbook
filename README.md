@@ -22,6 +22,7 @@
   - [Bold Text 强调文本](#bold-text-强调文本)
   - [Italic Text 斜体文本](#italic-text-斜体文本)
   - [Deleted Text 删除文本](#deleted-text-删除文本)
+  - [Inserted Text 插入文本](#inserted-text-插入文本)
   - [Combined Emphasis Text 混合文本](#combined-emphasis-text-混合文本)
 - [Table 表格](#table-表格)
   - [Raw Table 原始表格](#raw-table-原始表格)
@@ -263,6 +264,24 @@ _这也是次强调文字，斜体_
 <del>Deleted Text</del>
 
 <del>删除的文字</del>
+```
+
+### Inserted Text 插入文本
+
+++Inserted Text++
+
+++删除的文字++
+
+```markdown
+++Inserted Text++
+
+++删除的文字++
+```
+
+```html
+<ins>Inserted Text</ins>
+
+<ins>删除的文字</ins>
 ```
 
 ### Combined Emphasis Text 混合文本
