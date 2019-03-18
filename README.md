@@ -40,6 +40,7 @@
 - [Abbreviations 缩写](#abbreviations-缩写)
 - [Attribute List 属性列表](#attribute-list-属性列表)
 - [Code Block 代码段](#code-block-代码段)
+- [Footnote 脚注](#footnote-脚注)
 
 ***
 
@@ -553,4 +554,32 @@ print ('Hello world')
 <code>
 print ('Hello world')
 </code>
+```
+
+## Footnote 脚注
+
+```markdown
+Footnotes have a label[^label1] and the footnote's content[^label2].
+
+[^label1]: A footnote on the label: "label1".
+[^label2]: A footnote on the label: "label2".
+
+///Footnotes Go Here///
+```
+
+```html
+<h2 id="footnote">Footnote</h2>
+<p>Footnotes have a label<sup id="fnref:label1"><a class="footnote-ref" href="#fn:label1" rel="footnote">1</a></sup> and the footnote's content<sup id="fnref:label2"><a class="footnote-ref" href="#fn:label2" rel="footnote">2</a></sup>.</p>
+
+<div class="footnote">
+  <hr>
+  <ol>
+    <li id="fn:label1">
+      <p>A footnote on the label: "label1".&#160;<a class="footnote-backref" href="#fnref:label1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+    </li>
+    <li id="fn:label2">
+      <p>A footnote on the label: "label2".&#160;<a class="footnote-backref" href="#fnref:label2" rev="footnote" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 ```
