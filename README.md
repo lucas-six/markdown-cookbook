@@ -270,18 +270,18 @@ _这也是次强调文字，斜体_
 
 ++Inserted Text++
 
-++删除的文字++
+++插入的文字++
 
 ```markdown
 ++Inserted Text++
 
-++删除的文字++
+++插入的文字++
 ```
 
 ```html
 <ins>Inserted Text</ins>
 
-<ins>删除的文字</ins>
+<ins>插入的文字</ins>
 ```
 
 ### Combined Emphasis Text 混合文本
