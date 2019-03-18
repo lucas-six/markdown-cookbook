@@ -14,7 +14,7 @@
 - [List 列表](#list-列表)
   - [Unordered List 无序列表](#unordered-list-无序列表)
   - [Ordered List 有序列表](#ordered-list-有序列表)
-  - [Denifition List 定义列表](#denifition-list-定义列表)
+  - [Definition List 定义列表](#definition-list-定义列表)
 - [Inline Code 内嵌代码](#inline-code-内嵌代码)
 - [Image 图片](#image-图片)
 - [Link 链接](#link-链接)
@@ -133,7 +133,7 @@ Paragraph2
 </ol>
 ```
 
-### Denifition List 定义列表
+### Definition List 定义列表
 
 ```markdown
 Apple
