@@ -568,7 +568,6 @@ Footnotes have a label[^label1] and the footnote's content[^label2].
 ```
 
 ```html
-<h2 id="footnote">Footnote</h2>
 <p>Footnotes have a label<sup id="fnref:label1"><a class="footnote-ref" href="#fn:label1" rel="footnote">1</a></sup> and the footnote's content<sup id="fnref:label2"><a class="footnote-ref" href="#fn:label2" rel="footnote">2</a></sup>.</p>
 
 <div class="footnote">
