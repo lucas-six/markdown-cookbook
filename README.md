@@ -39,6 +39,7 @@
 - [Math 数学](#math-数学)
   - [TeX Mathematical Formulae Tex数学公式](#tex-mathematical-formulae-tex数学公式)
 - [Abbreviations 缩写](#abbreviations-缩写)
+- [Attribute List](#attribute-list)
 
 ***
 
@@ -538,4 +539,18 @@ is maintained by the W3C.
 ```html
 <p>The <abbr title="Hyper Text Markup Language">HTML</abbr> specification
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
+```
+
+## Attribute List
+
+```markdown
+## Attribute List {: #head-id}
+
+Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the **default**{: attrname="value" } bindings (keyboard shortcuts).
+{: #someid .someclass attrname='value' }
+```
+
+```html
+<h2 id="head-id">Attribute List</h2>
+<p attrname="value" class="someclass" id="someid">Windows lets you perform most tasks directly from the keyboard. This page lists out the default bindings (keyboard shortcuts). Windows lets you perform most tasks directly from the keyboard. This page lists out the <strong attrname="value">default</strong> bindings (keyboard shortcuts).</p>
 ```
