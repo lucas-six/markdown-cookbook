@@ -38,7 +38,7 @@
 - [Math 数学](#math-数学)
   - [TeX Mathematical Formulae Tex数学公式](#tex-mathematical-formulae-tex数学公式)
 - [Abbreviations 缩写](#abbreviations-缩写)
-- [Attribute List](#attribute-list)
+- [Attribute List 属性列表](#attribute-list-属性列表)
 - [Code Block 代码段](#code-block-代码段)
 
 ***
@@ -525,7 +525,7 @@ is maintained by the W3C.
 is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.</p>
 ```
 
-## Attribute List
+## Attribute List 属性列表
 
 ```markdown
 ## Attribute List {: #head-id}
