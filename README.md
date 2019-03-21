@@ -43,6 +43,7 @@
 - [Footnote 脚注](#footnote-脚注)
 - [Admonition 警示](#admonition-警示)
 - [Meta Data 元数据](#meta-data-元数据)
+- [Superscript 上标](#superscript-上标)
 
 ***
 
@@ -622,4 +623,14 @@ Summary: hello
 # Heading 1
 
 body text here
+```
+
+## Superscript 上标
+
+```markdown
+2^10^=1024
+```
+
+```html
+<p>2<sup>10</sup>=10</p>
 ```
