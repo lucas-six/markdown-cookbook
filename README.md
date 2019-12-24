@@ -1,5 +1,9 @@
 # Markdown Cookbook  <!-- omit in toc -->
 
+**Moved to <https://dookbook.info/en/help/Markdown>**
+
+**移至 <https://dookbook.info/zh-hans/help/Markdown>**
+
 `Markdown` - **简洁的文档语言**
 
 `Markdown` is a simple markup language that allows one to write documents using a text editor and transform those documents into many different formats.  Among other things, it works beautifully for documenting source code since the Markdown documents can be checked in and versioned with Git or your source control system of choice.
