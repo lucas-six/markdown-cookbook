@@ -1,8 +1,8 @@
 # Markdown Cookbook  <!-- omit in toc -->
 
-**Moved to <https://dookbook.info/en/help/Markdown>**
+**Moved to <https://dookbook.info/wikilink/markdown/en/terminology/>**
 
-**移至 <https://dookbook.info/zh-hans/help/Markdown>**
+**移至 <https://dookbook.info/wikilink/markdown/zh-Hans/terminology/>**
 
 `Markdown` - **简洁的文档语言**
 
